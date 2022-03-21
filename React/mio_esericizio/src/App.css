@@ -1,0 +1,48 @@
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #45B8AC;
+  padding: 10px;
+  
+}
+.ContenitoreIniziale {
+  padding-top: 20px;
+
+}
+
+.Post {
+  border: 1 px solid #555;
+  display: flex;
+  justify-content: center;
+  /*Server per cambiare il colore*/
+  flex-direction: column; 
+  width: 300px;
+}
+
+.ButtonPadding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.ButtonPaddinfLeft {
+  padding-left: 30px;
+}
+
+.Button {
+  border: none;
+  padding: 15px 32px;
+  background-color: coral;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 24px;
+}

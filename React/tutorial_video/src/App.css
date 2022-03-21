@@ -1,0 +1,23 @@
+.Post {
+  border: 1 px solid #555;
+  display: flex;
+  justify-content: center;
+  /*Server per cambiare il colore*/
+  flex-direction: column; 
+  width: 300px;
+}
+
+.ButtonPadding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.ButtonPaddinfLeft {
+  padding-left: 30px;
+}
