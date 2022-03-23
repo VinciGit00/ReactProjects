@@ -76,8 +76,10 @@
 
     //Posto dove voglio scrivere
     //console.log(ore + ":" + minuti + ":" + secondi);
+    //Questo non funziona
     document.getElementsByClassName('orario').innerHTML
       = "<p>" + ore + ":" + minuti + ":" + secondi + "</p>";
+    //Questo funziona
     document.getElementById('orario').innerHTML
       = "<p>" + ore + ":" + minuti + ":" + secondi + "</p>";
   }
