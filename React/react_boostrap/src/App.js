@@ -16,6 +16,19 @@ import shrimp from './images/shrimp.png';
 
 //Funziona in modo dinamico e mi permette di mettere i props
 class App extends Component {
+
+  state = {
+    cards: [
+      { id: 0, nome: "California", prezzo: 1.99, immagine: california },
+      { id: 1, nome: "dragon", prezzo: 2.50, immagine: dragon },
+      { id: 2, nome: "dynamite", prezzo: 4.99, immagine: dynamite },
+      { id: 3, nome: "philadelphia", prezzo: 1.39, immagine: philadelphia },
+      { id: 4, nome: "rainbow", prezzo: 11.99, immagine: rainbow },
+      { id: 5, nome: "shrimp", prezzo: 21.99, immagine: shrimp },
+    ]
+
+  }
+
   render() {
     return (
       //Creazione della navbar
@@ -25,32 +38,15 @@ class App extends Component {
           <h1>Cosa desideri ordinare?</h1>
           <hr />
           <div className='row'>
-            <Card immagine={california}
-              nome="california"
-              prezzo={1.99}
-            ></Card>
-            <Card immagine={dragon}
-              nome="dragon"
-              prezzo={1.99}
-            ></Card>
-            <Card immagine={dynamite}
-              nome="dynamite"
-              prezzo={1.99}
-            ></Card>
-            <Card immagine={philadelphia}
-              nome="philadelphia"
-              prezzo={1.99}
-            ></Card>
-            <Card immagine={rainbow}
-              nome="rainbow"
-              prezzo={1.99}
-            ></Card>
-            <Card immagine={shrimp}
-              nome="shrimp"
-              prezzo={1.99}
-            ></Card>
 
+            {this.state.cards.map(card => (
+              <Card key={card.id}
+                nome={card.nome}
+                prezzo={card.prezzo}
+                immagine={card.immagine}
 
+              ></Card>
+            ))}
           </div>
         </div>
       </>
