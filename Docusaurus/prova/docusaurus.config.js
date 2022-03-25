@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Il mio sito di prova',
+        title: 'Sito di prova',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -55,7 +55,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Home',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -67,47 +67,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/VinciGit00',
-              },
-            ],
-          },
-        ],
+      
         copyright: `Copyright © ${new Date().getFullYear()} VinciGit00, Inc. Built with Docusaurus.`,
       },
       prism: {

@@ -26,7 +26,14 @@ class App extends Component {
       { id: 4, nome: "rainbow", prezzo: 11.99, immagine: rainbow },
       { id: 5, nome: "shrimp", prezzo: 21.99, immagine: shrimp },
     ]
+  }
 
+  //cardId è l'oggetto che passo
+  handleDelete = cardId =>{
+    //Filtra la listaw
+    const cards = this.state.cards.filter(card => card.id !== cardId );
+    //Aggiornamento dello state
+    this.setState({ cards });
   }
 
   render() {
@@ -41,9 +48,10 @@ class App extends Component {
 
             {this.state.cards.map(card => (
               <Card key={card.id}
-                nome={card.nome}
-                prezzo={card.prezzo}
-                immagine={card.immagine}
+              //Passo il metodo per gestire 
+              onDelete= {this.handleDelete}
+              //Passo tutto il componente che itero
+              card = {card}
 
               ></Card>
             ))}
