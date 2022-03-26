@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import BottoneIncrementa from './components/BottoneIncrementa';
+import BottoneDecrementa  from './components/BottoneDecrementa';
 
 class App extends React.Component {
   state = {
     number: 0
   }
-
+//Nel props posso passare anche la funzione globale
   increment = () => {
 
     this.setState({
@@ -15,9 +17,13 @@ class App extends React.Component {
   }
   decrement = () => {
     this.setState({
+      //Non devo specificare lo stato del number perchè è 
+      //sottointeso che sia dentro 
+      //lo stato
       number: this.state.number - 1
     })
   }
+  
   render() {
     return (
       <div className='ContenitoreIniziale'>
@@ -26,10 +32,11 @@ class App extends React.Component {
             {this.state.number}
           </div>
           <div className='ButtonPadding'>
-            <button onClick={this.increment} className="Button">Incrementa</button>
+            <BottoneIncrementa function = {this.increment}></BottoneIncrementa>
           </div>
           <div >
-            <button onClick={this.decrement} className="Button">Decrementa</button>
+            
+            <BottoneDecrementa function = {this.decrement}></BottoneDecrementa>
           </div>
         </div >
       </div>

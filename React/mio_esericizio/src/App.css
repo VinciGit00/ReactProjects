@@ -1,13 +1,11 @@
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid #45B8AC;
+  border: 3px solid #45b8ac;
   padding: 10px;
-  
 }
 .ContenitoreIniziale {
   padding-top: 20px;
-
 }
 
 .Post {
@@ -15,7 +13,7 @@
   display: flex;
   justify-content: center;
   /*Server per cambiare il colore*/
-  flex-direction: column; 
+  flex-direction: column;
   width: 300px;
 }
 
