@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Seconda pagina
 
 Ogni posizione cartella rappresenta un file nella sidebar.
 
