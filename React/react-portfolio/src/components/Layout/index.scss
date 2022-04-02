@@ -16,7 +16,7 @@
   bottom: 0;
   left: 120px;
   font-size: 18px;
-  font-family: "La Belle Aurore", cursive;
+  font-family: 'La Belle Aurore', cursive;
 }
 
 .bottom-tag-html {
@@ -52,7 +52,7 @@
 
     h1 {
       font-size: 53px;
-      font-family: "Coolvetica";
+      font-family: 'Coolvetica';
       color: #ffd700;
       font-weight: 400;
       margin-top: 0;
@@ -61,8 +61,8 @@
       left: -10px;
 
       &:before {
-        content: "<h1>";
-        font-family: "La Belle Aurore", cursive;
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
         position: absolute;
@@ -73,8 +73,8 @@
       }
 
       &:after {
-        content: "<h1/>";
-        font-family: "La Belle Aurore", cursive;
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
         line-height: 18px;
