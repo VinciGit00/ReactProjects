@@ -7,6 +7,9 @@ To run the projects isntall node, change the directory and run the code below:
 ```bash
 npm start
 ```
+## animations
+https://user-images.githubusercontent.com/88108002/161394422-576d0101-89a9-4bb1-bc41-8d18cbd82823.mov
+
 
 ## react_boostrap
 <img width="960" alt="Schermata 2022-03-26 alle 14 19 27" src="https://user-images.githubusercontent.com/88108002/160258970-e14eeb41-e096-418b-8b3a-dd2c4784672f.png">
