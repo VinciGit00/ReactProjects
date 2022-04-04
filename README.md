@@ -7,7 +7,10 @@ To run the projects isntall node, change the directory and run the code below:
 ```bash
 npm start
 ```
-## animations
+## Timeline
+<img width="504" alt="Schermata 2022-04-03 alle 21 06 51" src="https://user-images.githubusercontent.com/88108002/161444031-8af2f1b1-cd2e-420f-8c27-f977f3054a93.png">
+
+## Animations
 https://user-images.githubusercontent.com/88108002/161394422-576d0101-89a9-4bb1-bc41-8d18cbd82823.mov
 
 
