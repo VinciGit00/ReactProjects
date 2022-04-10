@@ -20,5 +20,8 @@ https://user-images.githubusercontent.com/88108002/161394422-576d0101-89a9-4bb1-
 ## Calcolatrice
 ![Calcolatrice](https://user-images.githubusercontent.com/88108002/159360543-a293577f-083c-4443-b48d-e72cfb509b93.jpeg)
 
+## mio_esercizio
+<img width="399" alt="Schermata 2022-04-10 alle 14 00 29" src="https://user-images.githubusercontent.com/88108002/162617114-889aae1e-3395-4336-9699-a168bf81ec33.png">
+
 ## external_call
 <img width="1187" alt="Alert" src="https://user-images.githubusercontent.com/88108002/159360561-d9788de5-a059-44e7-8c14-78b684196003.png">
