@@ -44,3 +44,22 @@
   border-radius: 8px;
   padding: 10px 24px;
 }
+
+.text {
+  border: none;
+  padding: 15px 32px;
+  padding-top: 150px;
+  padding-bottom: 10px;
+  background-color: coral;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 24px;
+}
+
+.Padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
