@@ -30,7 +30,7 @@ mongoose.connect(
     console.log(err);
   }
 });*/
-
+//(a, async): il primo è il path e il secondo è una funzione
 app.post("/insert", async (req, res) => {
   const foodName = req.body.foodName;
   const days = req.body.days;
@@ -43,6 +43,29 @@ app.post("/insert", async (req, res) => {
   } catch (err) {
     console.log(err);
   }
+});
+
+//Update function
+app.put("/update", async (req, res) => {
+  const NewFoodName = req.body.NewFoodName;
+  const id = req.body.id;
+
+  try {
+    await FoodModel.findById(id, (err, updatedFood) => {
+      updatedFood.foodName = NewFoodName;
+      updatedFood.save();
+      res.send("update");
+    });
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+app.delete("/delete/:id", async (req, res) => {
+  const id = req.params.id;
+  await FoodModel.findByIdAndRemove(id).exec();
+  res.send("deleted");
+  console.log("Deleted data");
 });
 
 // Se uso http://localhost:3001/read

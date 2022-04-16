@@ -5,6 +5,8 @@ import "./App.css";
 function App() {
   const [food, setFoodname] = useState("");
   const [days, setDays] = useState(0);
+  const [newFoodName, setNewFoodName] = useState("");
+  const [foodList, setFoodList] = useState([]);
 
   useEffect(() => {
     Axios.get("http://localhost:3001/read ").then((response) => {
@@ -12,11 +14,20 @@ function App() {
     });
   }, []);
 
-  const [foodList, setFoodList] = useState([]);
-
   const addToList = () => {
     console.log(food + days);
     Axios.post("http://localhost:3001/insert", { foodName: food, days: days });
+  };
+
+  const updateFood = (id) => {
+    Axios.put("http://localhost:3001/update", {
+      id: id,
+      newFoodName: newFoodName,
+    });
+  };
+
+  const deleteFood = (id) => {
+    Axios.delete(`http://localhost:3001/delete/${id}`, {});
   };
 
   return (
@@ -45,6 +56,9 @@ function App() {
           <div>
             <h2>{val.foodName}</h2>
             <h2>{val.daySinceIAte}</h2>
+            <div>
+              <button onClick={() => deleteFood(val._id)}>Delete</button>
+            </div>
           </div>
         );
       })}
