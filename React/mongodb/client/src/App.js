@@ -1,6 +1,7 @@
 import react, { useState, useEffect } from "react";
 import Axios from "axios";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [food, setFoodname] = useState("");
@@ -47,9 +48,15 @@ function App() {
           setDays(event.target.value);
         }}
       ></input>
-      <button className="button" onClick={addToList}>
-        Add to list
-      </button>
+
+      <div></div>
+
+      <div className="bottone">
+        <button type="button" class="btn btn-dark" onClick={addToList}>
+          Add to list
+        </button>
+      </div>
+
       <h1>Food list</h1>
       {foodList.map((val, key) => {
         return (
@@ -57,7 +64,13 @@ function App() {
             <h2>{val.foodName}</h2>
             <h2>{val.daySinceIAte}</h2>
             <div>
-              <button onClick={() => deleteFood(val._id)}>Delete</button>
+              <button
+                type="button"
+                class="btn btn-dark"
+                onClick={() => deleteFood(val._id)}
+              >
+                delete
+              </button>
             </div>
           </div>
         );
