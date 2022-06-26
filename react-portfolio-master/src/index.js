@@ -28,7 +28,7 @@ import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
 import Preloader from "./components/preloader";
 import Education from "./components/education";
-
+import "./App.css";
 ReactDOM.render(
   <React.Fragment>
     <Navbar />
