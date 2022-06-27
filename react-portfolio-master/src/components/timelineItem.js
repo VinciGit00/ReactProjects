@@ -7,7 +7,13 @@ const TimelineItem = ({ data }) => (
         {data.category.tag}
       </span>
       <p>{data.date}</p>
-      <p>{data.text}</p>
+      <p>{data.date2}</p>
+
+      <p>{data.paragraph}</p>
+      <p>{data.first}</p>
+      <p>{data.second}</p>
+      <p>{data.third}</p>
+
       {data.link && (
         <a href={data.link.url} target="_blank" rel="noopener noreferrer">
           {data.link.text}

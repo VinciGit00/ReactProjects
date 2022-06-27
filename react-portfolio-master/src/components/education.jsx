@@ -5,7 +5,6 @@ class Education extends React.Component {
   render() {
     return (
       <section className="paralax-mf footer-paralax bg-image sect-mt4 route">
-        <div className="overlay-mf"></div>
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

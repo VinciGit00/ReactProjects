@@ -10,7 +10,7 @@ h1 {
 }
 
 .timeline-container::after {
-  background-color: #e17b77;
+  background-color: #0078ff;
   content: "";
   position: absolute;
   left: calc(50% - 2px);
@@ -115,7 +115,7 @@ h1 {
 
 .timeline-item-content .circle {
   background-color: #fff;
-  border: 3px solid #e17b77;
+  border: 3px solid #0078ff;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);
@@ -160,29 +160,4 @@ h1 {
   .timeline-item-content a::after {
     display: none;
   }
-}
-
-footer {
-  background-color: #222;
-  color: #fff;
-  font-size: 14px;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 999;
-}
-
-footer p {
-  margin: 10px 0;
-}
-
-footer i {
-  color: red;
-}
-
-footer a {
-  color: #3c97bf;
-  text-decoration: none;
 }

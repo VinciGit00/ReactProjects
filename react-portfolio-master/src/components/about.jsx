@@ -6,55 +6,51 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "90%",
+          porcentage: "75%",
           value: "90",
         },
-        { id: "Java_skill", content: "Java", porcentage: "70%", value: "70" },
+        { id: "Dart", content: "Dart", porcentage: "85%", value: "85" },
+        { id: "Java", content: "Java", porcentage: "80%", value: "80" },
         {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80",
-        },
-        {
-          id: "JavaScript__skill",
-          content: "JavaScript",
+          id: "Javascript",
+          content: "Javascript",
           porcentage: "75%",
           value: "75",
         },
+
+        { id: "SQL", content: "SQL", porcentage: "85%", value: "85" },
+        { id: "MongoDB", content: "MongoDB", porcentage: "70%", value: "70" },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85",
+          id: "Firebase",
+          content: "Firebase",
+          porcentage: "60%",
+          value: "60%",
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80",
+          id: "C",
+          content: "C",
+          porcentage: "40%",
+          value: "40",
         },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "I'm currently becoming an engineer and I'm going to improving myself and pushing myself to the limit to improve my skills",
+            "I'm currently becoming an engineer and I'm going to improving myself and pushing myself to the limit to improve my skills.",
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.",
+            "My favourite interests are: python and dart. I'm able also to interact with realtional and NoSQL databases.",
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.",
+            "I love programming because I can do app according to my needs.",
         },
       ],
     };
@@ -85,6 +81,9 @@ class About extends React.Component {
                         </div>
                       </div>
                     </div>
+                    <div className="title-box-2">
+                      <h5 className="title-left">About Me</h5>
+                    </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map((skill) => {
@@ -111,9 +110,6 @@ class About extends React.Component {
                   </div>
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
                       {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
