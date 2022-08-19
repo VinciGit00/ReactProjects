@@ -8,23 +8,21 @@ class Education extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <div className="contact-mf">
-                <div id="education" className="box-shadow-full">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="title-box-2">
-                        <h5 className="title-left">My education</h5>
-                      </div>
-                      <div className="timeline">
-                        <div className="timeline-progress"></div>
-                      </div>
-                      <div>
-                        <Timeline></Timeline>
-                      </div>
+              <div id="education" className="box-shadow-full">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="title-box-2">
+                      <h5 className="title-left">My education</h5>
                     </div>
-                    <div className="col-md-6">
-                      <div className="title-box-2 pt-4 pt-md-0"></div>
+                    <div className="timeline">
+                      <div className="timeline-progress"></div>
                     </div>
+                    <div>
+                      <Timeline></Timeline>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="title-box-2 pt-4 pt-md-0"></div>
                   </div>
                 </div>
               </div>

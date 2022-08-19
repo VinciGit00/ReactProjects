@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.71d375c3.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6cb3bb61.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6cb3bb61.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.0c4e4ecc.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0c4e4ecc.js.map",
+    "static/css/2.242f24fe.chunk.css": "/react-portfolio/static/css/2.242f24fe.chunk.css",
+    "static/js/2.adc84f7e.chunk.js": "/react-portfolio/static/js/2.adc84f7e.chunk.js",
+    "static/js/2.adc84f7e.chunk.js.map": "/react-portfolio/static/js/2.adc84f7e.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.ad90c27c1269aaebdb0ff399e920d297.js": "/react-portfolio/precache-manifest.ad90c27c1269aaebdb0ff399e920d297.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.242f24fe.chunk.css.map": "/react-portfolio/static/css/2.242f24fe.chunk.css.map",
+    "static/css/main.71d375c3.chunk.css.map": "/react-portfolio/static/css/main.71d375c3.chunk.css.map",
+    "static/js/2.adc84f7e.chunk.js.LICENSE": "/react-portfolio/static/js/2.adc84f7e.chunk.js.LICENSE",
+    "static/media/earth.jpg": "/react-portfolio/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image1.png": "/react-portfolio/static/media/image1.6bc2bb63.png",
+    "static/media/image2.png": "/react-portfolio/static/media/image2.4165e959.png",
+    "static/media/image3.png": "/react-portfolio/static/media/image3.1d7eed64.png",
+    "static/media/image4.png": "/react-portfolio/static/media/image4.143763a3.png",
+    "static/media/image5.png": "/react-portfolio/static/media/image5.30919e94.png",
+    "static/media/image6.png": "/react-portfolio/static/media/image6.1e299c2e.png",
+    "static/media/ionicons.css": "/react-portfolio/static/media/ionicons.621bd386.svg",
+    "static/media/male.png": "/react-portfolio/static/media/male.a82ab1cd.png",
+    "static/media/male1.png": "/react-portfolio/static/media/male1.3ec3891b.png",
+    "static/media/myImage.png": "/react-portfolio/static/media/myImage.bd80794f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c4e4ecc.js",
+    "static/css/2.242f24fe.chunk.css",
+    "static/js/2.adc84f7e.chunk.js",
+    "static/css/main.71d375c3.chunk.css",
+    "static/js/main.6cb3bb61.chunk.js"
+  ]
+}
