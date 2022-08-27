@@ -2,18 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
+  DiPython,
+  DiJava,
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
+  DiGithub,
 } from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -25,7 +21,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -34,10 +30,10 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
