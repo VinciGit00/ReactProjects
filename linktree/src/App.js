@@ -6,6 +6,12 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import * as React from "react";
 
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
+
+import "./style.css";
+
 import { Avatar } from "primereact/avatar";
 
 import {
@@ -60,6 +66,27 @@ function App() {
 
   return (
     <div className="App">
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        params={{
+          fpsLimit: 60,
+          particles: {
+            color: {
+              value: "#6f42c1",
+            },
+            links: {
+              enable: true,
+              color: "#6f42c1",
+              distance: 150,
+            },
+            move: {
+              enable: true,
+            },
+          },
+        }}
+      />
       <div className="p-m-4" style={{ paddingTop: 15 }}>
         <div>
           <div
