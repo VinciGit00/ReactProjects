@@ -17,6 +17,7 @@ export default function App() {
   const particlesLoaded = useCallback(async (container) => {
     //console.log(container);
   }, []);
+
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>

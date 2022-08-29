@@ -4,7 +4,7 @@ import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-import Particles from "react-tsparticles";
+import * as React from "react";
 
 import { Avatar } from "primereact/avatar";
 
@@ -12,6 +12,7 @@ import {
   AiFillGithub,
   AiOutlineLinkedin,
   AiFillChrome,
+  AiFillHome,
   AiFillRightSquare,
 } from "react-icons/ai";
 
@@ -42,6 +43,11 @@ function App() {
       {
         name: "My portfolio website",
         url: "https://www.linkedin.com/in/marco-vinciguerra-7ba365242/",
+        icon: "AiFillHome",
+      },
+      {
+        name: "My CV",
+        url: "https://mvinciguerra.notion.site/Side-projects-155b47302bf74029b9fe44fb213647de",
         icon: "AiFillChrome",
       },
       {
@@ -51,6 +57,7 @@ function App() {
       },
     ],
   };
+
   return (
     <div className="App">
       <div className="p-m-4" style={{ paddingTop: 15 }}>
@@ -72,7 +79,6 @@ function App() {
               justifyContent: "center",
             }}
           >
-            {" "}
             <p>{data.bio}</p>
           </div>
           <div
@@ -92,7 +98,7 @@ function App() {
                   }}
                 >
                   <a href={link.url} target="_blank" rel="noreferrer">
-                    <button type="button" class="btn btn-dark">
+                    <button type="button" class="btn btn-primary">
                       <AiFillGithub /> {link.name}
                     </button>
                   </a>
@@ -102,24 +108,6 @@ function App() {
           </div>
         </div>
       </div>
-      <Particles
-        params={{
-          fpsLimit: 60,
-          particles: {
-            color: {
-              value: "#000",
-            },
-            links: {
-              enable: true,
-              color: "#000",
-              distance: 150,
-            },
-            move: {
-              enable: true,
-            },
-          },
-        }}
-      />
     </div>
   );
 }

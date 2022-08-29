@@ -1,0 +1,24 @@
+// overwrite theme variables
+
+// test theme
+$primary: #f00;
+$secondary: #0f0;
+$dark: #300;
+$light: #fdd;
+$success: #0fa;
+$info: #555;
+$warning: #ff0;
+$danger: #f00;
+
+// good-looking theme
+$primary: #a4a366;
+$secondary: #9ab6da;
+$dark: #386086;
+$light: #f2efee;
+$success: #66ab57;
+$info: #9ab6da;
+$warning: #e49b1f;
+$danger: #f44336;
+
+// import bootstrap styles at the bottom!
+@import "~bootstrap/scss/bootstrap.scss";
