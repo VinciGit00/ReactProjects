@@ -73,7 +73,7 @@ function App() {
           init={particlesInit}
           loaded={particlesLoaded}
           params={{
-            fpsLimit: 60,
+            fpsLimit: 200,
             particles: {
               color: {
                 value: "#6f42c1",
@@ -81,7 +81,7 @@ function App() {
               links: {
                 enable: true,
                 color: "#6f42c1",
-                distance: 150,
+                distance: 65,
               },
               move: {
                 enable: true,
