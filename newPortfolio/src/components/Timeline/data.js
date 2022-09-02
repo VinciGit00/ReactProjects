@@ -1,5 +1,16 @@
 const timelineData = [
   {
+    text: "Google Data Analytics",
+    date2: "September 2022",
+    paragraph: "Coursera",
+    first: "- Specialization of 8 coursers for introduction to data analysis",
+
+    category: {
+      tag: "ML specialization",
+      color: "#1DA1F2",
+    },
+  },
+  {
     text: "ML specialization",
     date2: "August 2022",
     paragraph: "Coursera",
