@@ -44,7 +44,7 @@ function App() {
       },
       {
         name: "My CV",
-        url: "https://mvinciguerra.notion.site/Side-projects-155b47302bf74029b9fe44fb213647de",
+        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.28ec8a9ebeb5b1d0d931.pdf",
         icon: AiFillChrome,
       },
       {
