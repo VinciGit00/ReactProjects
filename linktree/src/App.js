@@ -44,7 +44,7 @@ function App() {
       },
       {
         name: "My CV",
-        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.28ec8a9ebeb5b1d0d931.pdf",
+        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.5024ac2cbfa9c6b14814.pdf",
         icon: AiFillChrome,
       },
       {

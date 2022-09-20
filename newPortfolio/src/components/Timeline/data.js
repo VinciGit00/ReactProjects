@@ -1,8 +1,19 @@
 const timelineData = [
   {
-    text: "Databases and SQL for Data Science with Python",
+    text: "DNeural Networks and Deep Learning",
     date2: "September 2022",
     paragraph: "Coursera",
+    first: "Course for learning the basics of deep learning",
+
+    category: {
+      tag: "ML specialization",
+      color: "#1DA1F2",
+    },
+  },
+  {
+    text: "Databases and SQL for Data Science with Python",
+    date2: "September 2022",
+    paragraph: "Coursera - honors certification",
     first: "Course for working with SQL an Python",
 
     category: {
