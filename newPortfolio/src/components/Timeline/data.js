@@ -1,8 +1,19 @@
 const timelineData = [
   {
-    text: "DNeural Networks and Deep Learning",
+    text: "IBM data science",
     date2: "September 2022",
-    paragraph: "Coursera",
+    paragraph: "Coursera - IBM",
+    first: "Specialization, data science introduction",
+
+    category: {
+      tag: "ML specialization",
+      color: "#1DA1F2",
+    },
+  },
+  {
+    text: "Neural Networks and Deep Learning",
+    date2: "September 2022",
+    paragraph: "Coursera - Deeplearning.ai",
     first: "Course for learning the basics of deep learning",
 
     category: {
@@ -24,7 +35,7 @@ const timelineData = [
   {
     text: "Google Data Analytics",
     date2: "September 2022",
-    paragraph: "Coursera",
+    paragraph: "Coursera - Google",
     first: "- Specialization of 8 coursers for introduction to data analysis",
 
     category: {
@@ -35,7 +46,7 @@ const timelineData = [
   {
     text: "ML specialization",
     date2: "August 2022",
-    paragraph: "Coursera",
+    paragraph: "Coursera - Deeplearnig.ai",
     first: "- Specialization of 3 coursers for deep learning and ML",
 
     category: {
@@ -52,7 +63,7 @@ const timelineData = [
     third: "- Data bases",
     category: {
       tag: "Bachelor thesis in IT engineering",
-      color: "#1DA1F2",
+      color: "#ff0000",
     },
   },
 ];
