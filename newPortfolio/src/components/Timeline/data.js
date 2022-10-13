@@ -1,7 +1,7 @@
 const timelineData = [
   {
     text: "IBM data science",
-    date2: "September 2022",
+    date2: "October 2022",
     paragraph: "Coursera - IBM",
     first: "Specialization, data science introduction",
 
