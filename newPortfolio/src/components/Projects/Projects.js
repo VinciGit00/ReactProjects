@@ -72,9 +72,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Screen dimension in real time"
-              description="Web app that returns in real time the screen dimensions"
-              ghLink="https://github.com/VinciGit00/FlutterProjects/tree/main/screen_dimension"
+              title="Mum's shop"
+              description="Flutter app for managing the warehouse of my mom's shop with barcode scanner"
+              ghLink=""
             />
           </Col>
         </Row>
