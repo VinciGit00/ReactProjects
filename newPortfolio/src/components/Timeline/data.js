@@ -1,12 +1,24 @@
 const timelineData = [
   {
+    text: "Research grant",
+    date2: "November 2022",
+    paragraph: "University of Bergamo",
+    first:
+      "Main topic: impact of agriculture on the air quality and the COVID-19 pandemic- AgrimOnIA",
+
+    category: {
+      tag: "Work",
+      color: "#6a5acd",
+    },
+  },
+  {
     text: "IBM data science",
     date2: "October 2022",
     paragraph: "Coursera - IBM",
     first: "Specialization, data science introduction",
 
     category: {
-      tag: "ML specialization",
+      tag: "DS specialization",
       color: "#1DA1F2",
     },
   },
@@ -28,7 +40,7 @@ const timelineData = [
     first: "Course for working with SQL an Python",
 
     category: {
-      tag: "ML specialization",
+      tag: "Coursera honors",
       color: "#1DA1F2",
     },
   },
@@ -39,7 +51,7 @@ const timelineData = [
     first: "- Specialization of 8 coursers for introduction to data analysis",
 
     category: {
-      tag: "ML specialization",
+      tag: "data analytics specialization",
       color: "#1DA1F2",
     },
   },
