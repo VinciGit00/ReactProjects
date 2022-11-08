@@ -27,28 +27,28 @@ function App() {
     bio: "Master IT engineer student",
     links: [
       {
-        name: "My Github",
+        name: "Github",
         url: "https://github.com/VinciGit00",
         icon: AiFillGithub,
       },
       {
-        name: "My Linkedin",
+        name: "Linkedin",
         url: "https://www.linkedin.com/in/marco-vinciguerra-7ba365242/",
         icon: AiOutlineLinkedin,
       },
 
       {
-        name: "My portfolio website",
-        url: "http://marcovincidev.altervista.org/",
+        name: "portfolio website",
+        url: "https://marco-vinciguerra-dev.onrender.com/",
         icon: AiFillHome,
       },
       {
         name: "My CV",
-        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.3f57bd39bb4efe57adf9.pdf",
+        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.59ca3edc7793a041bc94.pdf",
         icon: AiFillChrome,
       },
       {
-        name: "My Notion sideprojects documentation",
+        name: "Notion sideprojects documentation",
         url: "https://mvinciguerra.notion.site/Side-projects-155b47302bf74029b9fe44fb213647de",
         icon: AiFillRightSquare,
       },
