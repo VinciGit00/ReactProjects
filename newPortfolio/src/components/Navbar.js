@@ -7,6 +7,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFieldTime,
+  AiFillPrinter,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -86,10 +88,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/timelinework"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFieldTime style={{ marginBottom: "2px" }} /> Work
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/timeline"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Timeline
+                <AiFillPrinter style={{ marginBottom: "2px" }} /> Education
               </Nav.Link>
             </Nav.Item>
           </Nav>

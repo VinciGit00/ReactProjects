@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Timeline from "./components/Timeline/TimelineNew";
+import TimelineWork from "./components/Work/TimelineWork";
 
 import {
   BrowserRouter as Router,
@@ -42,6 +43,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/timeline" element={<Timeline />} />
+          <Route path="/timelinework" element={<TimelineWork />} />
+
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
