@@ -7,7 +7,7 @@ const timelineData = [
       "Main topic: impact of agriculture on the air quality and the COVID-19 pandemic- AgrimOnIA",
 
     category: {
-      tag: "Work ",
+      tag: "Work",
       color: "#6a5acd",
     },
   },
