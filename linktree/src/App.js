@@ -5,6 +5,7 @@ import {
   AiFillChrome,
   AiFillHome,
   AiFillRightSquare,
+  AiOutlineMail,
 } from "react-icons/ai";
 
 import Particles from "react-tsparticles";
@@ -48,7 +49,12 @@ function App() {
         icon: AiFillChrome,
       },
       {
-        name: "Notion sideprojects documentation",
+        name: "Contact me",
+        url: "https://mvform.onrender.com/",
+        icon: AiOutlineMail,
+      },
+      {
+        name: "Sideprojects documentation",
         url: "https://mvinciguerra.notion.site/Side-projects-155b47302bf74029b9fe44fb213647de",
         icon: AiFillRightSquare,
       },
