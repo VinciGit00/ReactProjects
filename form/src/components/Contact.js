@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Input } from "semantic-ui-react";
 
 const Contact = () => {
   const form = useRef();
@@ -28,31 +29,43 @@ const Contact = () => {
   return (
     <section>
       <div className="container">
-        <h2 className="--text-center">Contact me</h2>
+        <h1 className="--text-center">Contact me</h1>
         <form
           ref={form}
           onSubmit={sendEmail}
           className="--form-control--card  --flex-center --dir-column"
         >
-          <input
+          <label>
+            <h3>Name and Surname</h3>
+          </label>
+          <Input
+            focus
             type="text"
-            placeholder="Full Name"
             name="user_name"
             required
-          ></input>
-          <input
+            className="Input"
+          ></Input>
+          &nbsp;
+          <label>
+            <h3>Email</h3>
+          </label>
+          <Input
             type="email"
-            placeholder="Email"
             name="user_email"
             required
-          ></input>
-          <input
-            type="text"
-            placeholder="Subject"
-            name="subject"
-            required
-          ></input>
+            className="Input"
+          ></Input>
+          &nbsp;
+          <label>
+            <h3>Subject</h3>
+          </label>
+          <Input type="text" name="subject" required className="Input"></Input>
+          &nbsp;
+          <label>
+            <h3>Message</h3>
+          </label>
           <textarea name="message" id="" cols="30" rows="10"></textarea>
+          &nbsp;
           <button type="submit" className="--btn --btn-primary">
             Send message
           </button>

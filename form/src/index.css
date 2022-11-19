@@ -21,7 +21,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -41,7 +41,7 @@ section {
 
 .container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 10;
   padding: 0 20px;
 }
 
@@ -111,7 +111,7 @@ section {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin: auto;
+  margin: 10;
   text-align: center;
 }
 
@@ -180,7 +180,7 @@ p {
 }
 
 .--color-primary {
-  color: #007bff;
+  color: #6f42c1;
 }
 .--color-danger {
   color: orangered;
@@ -299,7 +299,7 @@ p {
 
 .--btn-primary {
   color: #fff;
-  background: #007bff;
+  background: #6f42c1;
 }
 .--btn-secondary {
   color: #fff;
@@ -336,26 +336,31 @@ p {
 .--form-control {
   font-size: 1.6rem;
   font-weight: 300;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
 }
 
 .--form-control > * {
   margin: 5px 0;
 }
 
-.--form-control input {
-  font-size: 1.6rem;
-  font-weight: 300;
-  padding: 8px 1rem;
-  border: 1px solid #777;
-  border-radius: 3px;
-  outline: none;
-}
 .--form-control select {
   font-size: 1.4rem;
   font-weight: 400;
-  padding: 8px 1rem;
+  padding: 80px 1rem;
   border: 1px solid #777;
   border-radius: 3px;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
+  padding-top: 50px;
 }
 
 .--form-control label {
@@ -365,6 +370,12 @@ p {
   min-width: 7rem;
   color: var(--color-dark);
   margin-right: 1rem;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
 }
 
 @media screen and (max-width: 600px) {
@@ -399,7 +410,7 @@ p {
   transform: translateX(-50%);
   width: 5rem;
   height: 3px;
-  margin-bottom: 1rem;
+  margin-bottom: 20;
 
   background: rgb(217, 8, 170);
   background: linear-gradient(
