@@ -12,8 +12,6 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 
-import { Avatar } from "primereact/avatar";
-
 function App() {
   const colors = {
     github: "purple",
@@ -45,7 +43,7 @@ function App() {
       },
       {
         name: "My CV",
-        url: "http://marcovincidev.altervista.org/static/media/Marco_VinciguerraCV.59ca3edc7793a041bc94.pdf",
+        url: "https://marco-vinciguerra-dev.onrender.com/static/media/Marco_VinciguerraCV.0dffe2a99d42236c7ff2.pdf",
         icon: AiFillChrome,
       },
       {
