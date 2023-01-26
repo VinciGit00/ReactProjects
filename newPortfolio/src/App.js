@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Timeline from "./components/Timeline/TimelineNew";
 import TimelineWork from "./components/Work/TimelineWork";
+import TimelineCertifications from "./components/Certifications/TimelineCertifications";
 import Form from "./components/Form/Form";
 
 import {
@@ -45,8 +46,8 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/timelinework" element={<TimelineWork />} />
+          <Route path="/education" element={<TimelineCertifications />} />
           <Route path="/form" element={<Form />} />
-
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

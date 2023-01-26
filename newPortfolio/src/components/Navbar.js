@@ -107,6 +107,15 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/Education"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillMail style={{ marginBottom: "2px" }} /> Certifications
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/form"
                 onClick={() => updateExpanded(false)}
               >
