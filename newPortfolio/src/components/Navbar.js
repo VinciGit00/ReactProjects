@@ -10,6 +10,7 @@ import {
   AiOutlineFieldTime,
   AiFillPrinter,
   AiFillMail,
+  AiFillSchedule,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -110,7 +111,8 @@ function NavBar() {
                 to="/Education"
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillMail style={{ marginBottom: "2px" }} /> Certifications
+                <AiFillSchedule style={{ marginBottom: "2px" }} />{" "}
+                Certifications
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
