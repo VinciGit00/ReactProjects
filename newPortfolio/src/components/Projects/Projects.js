@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/image3.png";
 import chatify from "../../Assets/Projects/image4.png";
 import suicide from "../../Assets/Projects/image5.png";
 import bitsOfCode from "../../Assets/Projects/image6.png";
+import marcoApi from "../../Assets/Projects/image7.png";
 
 function Projects() {
   return (
@@ -27,6 +28,15 @@ function Projects() {
               isBlog={false}
               title="Notes"
               description="A Flutter app with firebase connection to handle notes encrypted"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={marcoApi}
+              isBlog={false}
+              title="Marco's api"
+              description="A list and a trial of api made with Flask"
+              ghLink="https://github.com/VinciGit00/MarcosApi"
             />
           </Col>
           <Col md={4} className="project-card">
