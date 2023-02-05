@@ -213,6 +213,10 @@ h1 {
   padding: 5px;
   height: 2.5rem;
 }
+.Message {
+  resize: vertical;
+  height: auto;
+}
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
   right: auto;
   left: -40px;
