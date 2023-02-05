@@ -39,46 +39,56 @@ function Form() {
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className="--form-control--card  --flex-center --dir-column"
+                className="--form-control--card  --flex-center --dir-column form-main"
+                autoComplete="off"
               >
-                <label>
-                  <h3>
-                    Name and <strong className="purple">Surname</strong>
-                  </h3>
-                </label>
-                <Input
-                  focus
-                  type="text"
-                  name="user_name"
-                  required
-                  className="Input"
-                ></Input>
-                &nbsp;
-                <label>
-                  <h3>Email</h3>
-                </label>
-                <Input
-                  type="email"
-                  name="user_email"
-                  required
-                  className="Input"
-                ></Input>
-                &nbsp;
-                <label>
-                  <h3>Subject</h3>
-                </label>
-                <Input
-                  type="text"
-                  name="subject"
-                  required
-                  className="Input"
-                ></Input>
-                &nbsp;
-                <label>
-                  <h3>Message</h3>
-                </label>
-                <br />
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <div className="form-group">
+                  <label>
+                    <h3>
+                      Name and <strong className="purple">Surname</strong>
+                    </h3>
+                  </label>
+                  <input
+                    type="text"
+                    name="user_name"
+                    required
+                    className="Input"
+                  />
+                </div>
+                <div className="form-group">
+                  <label>
+                    <h3>Email</h3>
+                  </label>
+                  <input
+                    type="email"
+                    name="user_email"
+                    required
+                    className="Input"
+                  />
+                </div>
+                <div className="form-group">
+                  <label>
+                    <h3>Subject</h3>
+                  </label>
+                  <input
+                    type="text"
+                    name="subject"
+                    required
+                    className="Input"
+                  />
+                </div>
+                <div className="form-group">
+                  <label>
+                    <h3>Message</h3>
+                  </label>
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    className="Input Message"
+                  ></textarea>
+                </div>
                 <br />
                 <button type="submit" className="bottone">
                   Send message

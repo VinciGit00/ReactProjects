@@ -1,5 +1,15 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: transparent;
+}
+
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -12,7 +22,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#home {
+  background-color: transparent;
+  z-index: 2;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -176,7 +189,30 @@ h1 {
   transition: 0.3s ease all;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
 }
-
+.form-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 0.2rem;
+}
+.form-group h3 {
+  font-size: 1.3rem;
+}
+.Input {
+  background: transparent !important;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  height: 2.5rem;
+}
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
   right: auto;
   left: -40px;
