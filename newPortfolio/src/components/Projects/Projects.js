@@ -24,21 +24,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title=" stats"
+              description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA. The
+app is Online and it’s avaiable at the following link: https://vincigit00-nba-platform-main-ounnit.streamlit.app/"
+              ghLink="https://github.com/VinciGit00/nba-platform"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Notes"
               description="A Flutter app with firebase connection to handle notes encrypted"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={marcoApi}
               isBlog={false}
               title="Marco's api"
-              description="A list and a trial of api made with Flask"
+              description="A list and a trial of api made with Flask. 
+              You can try the api looking the following swagger link: https://marcosapi.onrender.com/swagger/"
               ghLink="https://github.com/VinciGit00/MarcosApi"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -54,16 +67,6 @@ function Projects() {
               isBlog={false}
               title="Password app"
               description="Flutter app using AWS (dynamo and lambda functions) for managing passwords"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="React calculator"
-              description="A simple react calculator"
-              ghLink="https://github.com/VinciGit00/ReactProjects/tree/main/React/calcolatrice"
             />
           </Col>
 
