@@ -34,6 +34,15 @@ app is Online and it’s avaiable at the following link: https://vincigit00-nba-
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Amazon web scraping"
+              description="Open source streamlit web-app for scraping amazon webProduct for free using BeautifulSoup. Demo avaiable at https://vincigit00-amazon-scraping-app-nfzu99.streamlit.app"
+              ghLink="https://github.com/VinciGit00/Amazon-scraping"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Notes"
@@ -67,16 +76,6 @@ app is Online and it’s avaiable at the following link: https://vincigit00-nba-
               isBlog={false}
               title="Password app"
               description="Flutter app using AWS (dynamo and lambda functions) for managing passwords"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Task organizer"
-              description="Flutter app with firebase and providers for managing TODO tasks"
-              ghLink="https://github.com/VinciGit00/Personal-Stuff/tree/main/Flutter/provider"
             />
           </Col>
 
