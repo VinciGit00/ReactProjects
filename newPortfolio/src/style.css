@@ -23,6 +23,7 @@ html {
 
 button:focus {
   box-shadow: none !important;
+  margin-top: 1rem;
 }
 
 /* --------- */

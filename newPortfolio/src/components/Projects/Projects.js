@@ -27,9 +27,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title=" stats"
-              description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA. The
-app is Online and it’s avaiable at the following link: https://vincigit00-nba-platform-main-ounnit.streamlit.app/"
+              description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA"
               ghLink="https://github.com/VinciGit00/nba-platform"
+              demo="https://vincigit00-nba-platform-main-ounnit.streamlit.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -37,8 +37,9 @@ app is Online and it’s avaiable at the following link: https://vincigit00-nba-
               imgPath={suicide}
               isBlog={false}
               title="Amazon web scraping"
-              description="Open source streamlit web-app for scraping amazon webProduct for free using BeautifulSoup. Demo avaiable at https://vincigit00-amazon-scraping-app-nfzu99.streamlit.app"
+              description="Open source streamlit web-app for scraping amazon webProduct for free using BeautifulSoup"
               ghLink="https://github.com/VinciGit00/Amazon-scraping"
+              demo="https://vincigit00-amazon-scraping-app-nfzu99.streamlit.app"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -55,9 +56,9 @@ app is Online and it’s avaiable at the following link: https://vincigit00-nba-
               imgPath={marcoApi}
               isBlog={false}
               title="Marco's api"
-              description="A list and a trial of api made with Flask. 
-              You can try the api looking the following swagger link: https://marcosapi.onrender.com/swagger/"
+              description="A list and a trial of api made with Flask"
               ghLink="https://github.com/VinciGit00/MarcosApi"
+              demo="https://marcosapi.onrender.com/swagger/"
             />
           </Col>
 
