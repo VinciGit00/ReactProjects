@@ -1,0 +1,35 @@
+.container {
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    width: 40vw;
+    background-color: #cccccc90;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    text-align: left;
+}
+.input {
+    width: 100%;
+}
+
+.input input, textarea {
+    width: 100%;
+    padding: 7px 5px;
+    font-size: 1.7rem;
+    border-radius: 7px;
+    border: none;
+}
+textarea {
+    resize: vertical;
+}
+label {
+    margin-top: 1rem;
+}
+form > button {
+    margin-top: 2rem !important;
+}

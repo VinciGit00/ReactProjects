@@ -21,7 +21,7 @@
 
 * {
   margin: 0;
-  padding: 10;
+  padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -34,21 +34,22 @@ body {
   font-family: var(--font-family);
 }
 
-section {
+/* section {
   width: 100%;
-  padding: 8rem 0;
-}
+}*/
 
 .container {
-  max-width: 1000px;
-  margin: 10;
-  padding: 0 20px;
-  display: "flex";
-  textalign: "center";
-  align-items: "center";
-  justify-content: "center";
-  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
+
+/*form {
+  margin: 0 auto;
+} */
 
 /* UTILITY CLASSES */
 

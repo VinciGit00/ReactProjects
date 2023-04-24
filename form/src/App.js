@@ -40,7 +40,7 @@ function App() {
           },
         }}
       />
-      <Contact></Contact>
+      <Contact />
     </div>
   );
 }

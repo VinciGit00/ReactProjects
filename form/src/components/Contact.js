@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Input } from "semantic-ui-react";
+import '../styles/form.css'
 
 const Contact = () => {
   const form = useRef();
@@ -29,7 +30,7 @@ const Contact = () => {
   return (
     <section>
       <div className="container">
-        <h1 className="--text-center">Contact me</h1>
+        <h1 className="form-head">Contact me</h1>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -43,9 +44,8 @@ const Contact = () => {
             type="text"
             name="user_name"
             required
-            className="Input"
+            className="input"
           ></Input>
-          &nbsp;
           <label>
             <h3>Email</h3>
           </label>
@@ -53,19 +53,16 @@ const Contact = () => {
             type="email"
             name="user_email"
             required
-            className="Input"
+            className="input"
           ></Input>
-          &nbsp;
           <label>
             <h3>Subject</h3>
           </label>
-          <Input type="text" name="subject" required className="Input"></Input>
-          &nbsp;
+          <Input type="text" name="subject" required className="input"></Input>
           <label>
             <h3>Message</h3>
           </label>
           <textarea name="message" id="" cols="30" rows="10"></textarea>
-          &nbsp;
           <button type="submit" className="--btn --btn-primary">
             Send message
           </button>
