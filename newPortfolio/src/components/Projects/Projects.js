@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -10,8 +10,63 @@ import suicide from "../../Assets/Projects/image5.png";
 import bitsOfCode from "../../Assets/Projects/image6.png";
 import marcoApi from "../../Assets/Projects/image7.png";
 import camera from "../../Assets/Projects/image8.png";
+import { encode } from "blurhash";
 
 function Projects() {
+  const [bitsOfCodeBlurhash, setBitsOfCodeBlurhash] = useState("");
+  const [suicideBlurhash, setSuicideBlurhash] = useState("");
+  const [cameraBlurhash, setCameraBlurhash] = useState("");
+  const [editorBlurhash, setEditorBlurhash] = useState("");
+  const [marcoApiBlurhash, setMarcoApiBlurhash] = useState("");
+  const [leafBlurhash, setLeafBlurhash] = useState("");
+  const [chatifyBlurhash, setChatifyBlurhash] = useState("");
+  const [emotionBlurhash, setEmotionBlurhash] = useState("");
+
+  useEffect(() => {
+    // Load and encode the images as blurhash strings
+    const loadAndEncodeImages = async () => {
+      const bitsOfCodeData = await loadImageData(bitsOfCode);
+      const suicideData = await loadImageData(suicide);
+      const cameraData = await loadImageData(camera);
+      const editorData = await loadImageData(editor);
+      const marcoApiData = await loadImageData(marcoApi);
+      const leafData = await loadImageData(leaf);
+      const chatifyData = await loadImageData(chatify);
+      const emotionData = await loadImageData(emotion);
+
+      setBitsOfCodeBlurhash(encode(bitsOfCodeData, 32, 32));
+      setSuicideBlurhash(encode(suicideData, 32, 32));
+      setCameraBlurhash(encode(cameraData, 32, 32));
+      setEditorBlurhash(encode(editorData, 32, 32));
+      setMarcoApiBlurhash(encode(marcoApiData, 32, 32));
+      setLeafBlurhash(encode(leafData, 32, 32));
+      setChatifyBlurhash(encode(chatifyData, 32, 32));
+      setEmotionBlurhash(encode(emotionData, 32, 32));
+    };
+
+    loadAndEncodeImages();
+  }, []);
+
+  const loadImageData = (src) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.src = src;
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        const canvas = document.createElement("canvas");
+        canvas.width = img.width;
+        canvas.height = img.height;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0);
+        const imageData = ctx.getImageData(0, 0, img.width, img.height);
+        resolve(imageData.data);
+      };
+      img.onerror = () => {
+        reject(new Error("Failed to load image."));
+      };
+    });
+  };
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -26,6 +81,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
+              blurhash={bitsOfCodeBlurhash}
               isBlog={false}
               title=" stats"
               description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA"
@@ -36,6 +92,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
+              blurhash={suicideBlurhash}
               isBlog={false}
               title="Amazon web scraping"
               description="Open source streamlit web-app for scraping amazon webProduct for free using BeautifulSoup"
@@ -46,6 +103,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={camera}
+              blurhash={cameraBlurhash}
               isBlog={false}
               title="camera_face_recognition"
               description="This is an open source app for transforming an old laptop camera that can
@@ -57,6 +115,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
+              blurhash={editorBlurhash}
               isBlog={false}
               title="Notes"
               description="A Flutter app with firebase connection to handle notes encrypted"
@@ -66,6 +125,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={marcoApi}
+              blurhash={marcoApiBlurhash}
               isBlog={false}
               title="Marco's api"
               description="A list and a trial of api made with Flask"
@@ -77,6 +137,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
+              blurhash={leafBlurhash}
               isBlog={false}
               title="Money tracker notion"
               description="An app for tracking expenses with notion API"
@@ -86,6 +147,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
+              blurhash={chatifyBlurhash}
               isBlog={false}
               title="Password app"
               description="Flutter app using AWS (dynamo and lambda functions) for managing passwords"
@@ -95,6 +157,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
+              blurhash={emotionBlurhash}
               isBlog={false}
               title="Mum's shop"
               description="Flutter app for managing the warehouse of my mom's shop with barcode scanner"
