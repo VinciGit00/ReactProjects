@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/image4.png";
 import suicide from "../../Assets/Projects/image5.png";
 import bitsOfCode from "../../Assets/Projects/image6.png";
 import marcoApi from "../../Assets/Projects/image7.png";
+import camera from "../../Assets/Projects/image8.png";
 
 function Projects() {
   return (
@@ -40,6 +41,17 @@ function Projects() {
               description="Open source streamlit web-app for scraping amazon webProduct for free using BeautifulSoup"
               ghLink="https://github.com/VinciGit00/Amazon-scraping"
               demo="https://vincigit00-amazon-scraping-app-nfzu99.streamlit.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={camera}
+              isBlog={false}
+              title="camera_face_recognition"
+              description="This is an open source app for transforming an old laptop camera that can
+              recognise human faces and send the pictures by email"
+              ghLink="https://github.com/VinciGit00/camera_face_recognition"
+              demo=""
             />
           </Col>
           <Col md={4} className="project-card">
