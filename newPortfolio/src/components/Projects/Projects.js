@@ -83,7 +83,7 @@ function Projects() {
               imgPath={bitsOfCode}
               blurhash={bitsOfCodeBlurhash}
               isBlog={false}
-              title=" stats"
+              title=" NBA stats"
               description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA"
               ghLink="https://github.com/VinciGit00/nba-platform"
               demo="https://vincigit00-nba-platform-main-ounnit.streamlit.app/"
@@ -105,7 +105,7 @@ function Projects() {
               imgPath={camera}
               blurhash={cameraBlurhash}
               isBlog={false}
-              title="camera_face_recognition"
+              title="Camera_face_recognition"
               description="This is an open source app for transforming an old laptop camera that can
               recognise human faces and send the pictures by email"
               ghLink="https://github.com/VinciGit00/camera_face_recognition"
