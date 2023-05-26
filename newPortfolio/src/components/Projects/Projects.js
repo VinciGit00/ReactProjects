@@ -105,20 +105,11 @@ function Projects() {
               imgPath={camera}
               blurhash={cameraBlurhash}
               isBlog={false}
-              title="Camera_face_recognition"
+              title="CnaisLoggedInisLoggedInmera_face_recognition"
               description="This is an open source app for transforming an old laptop camera that can
               recognise human faces and send the pictures by email"
               ghLink="https://github.com/VinciGit00/camera_face_recognition"
               demo=""
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              blurhash={editorBlurhash}
-              isBlog={false}
-              title="Notes"
-              description="A Flutter app with firebase connection to handle notes encrypted"
             />
           </Col>
 
@@ -144,15 +135,6 @@ function Projects() {
               ghLink="https://github.com/VinciGit00/Personal-Stuff/tree/main/Flutter/MoneyTrackerNotion"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              blurhash={chatifyBlurhash}
-              isBlog={false}
-              title="Password app"
-              description="Flutter app using AWS (dynamo and lambda functions) for managing passwords"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -162,6 +144,15 @@ function Projects() {
               title="Mum's shop"
               description="Flutter app for managing the warehouse of my mom's shop with barcode scanner"
               ghLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              blurhash={editorBlurhash}
+              isBlog={false}
+              title="Notes"
+              description="A Flutter app with firebase connection to handle notes encrypted"
             />
           </Col>
         </Row>
