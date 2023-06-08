@@ -8,17 +8,22 @@ const TimelineItem = ({ data }) => (
       </span>
       <p>{data.date}</p>
       <p>{data.date2}</p>
-
       <p>{data.paragraph}</p>
       <p>{data.first}</p>
-      <p>{data.second}</p>
+      <p>
+        {data.second && (
+          <a
+            href={data.second}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "white" }}
+          >
+            {data.second}
+          </a>
+        )}
+      </p>
       <p>{data.third}</p>
 
-      {data.link && (
-        <a href={data.link.url} target="_blank" rel="noopener noreferrer">
-          {data.link.text}
-        </a>
-      )}
       <span className="circle" />
     </div>
   </div>
