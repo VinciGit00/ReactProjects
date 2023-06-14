@@ -1,5 +1,17 @@
 const timelineData = [
   {
+    text: "University of Bergamo",
+    date2: "October 2023- June 2023",
+    paragraph: "Main Arguments:",
+    first: "- Neural networks",
+    second: "- Machine learning",
+    third: "- Transformer vision",
+    category: {
+      tag: "Master degree in IT engineering",
+      color: "#6a5acd",
+    },
+  },
+  {
     text: "Riga Technical University",
     date2: "January 2023 - June 2023",
     paragraph: "Main Arguments:",
@@ -21,7 +33,7 @@ const timelineData = [
     second: "- Object oriented coding",
     third: "- Data bases",
     category: {
-      tag: "Bachelor thesis in IT engineering",
+      tag: "Bachelor degree in IT engineering",
       color: "#6a5acd",
     },
   },
