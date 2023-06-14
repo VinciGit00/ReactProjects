@@ -62,7 +62,7 @@ h1 {
 }
 
 .timeline-container::after {
-  background-color: #0078ff;
+  background-color: #6a5acd;
   content: "";
   position: absolute;
   left: calc(50% - 2px);
@@ -167,7 +167,7 @@ h1 {
 
 .timeline-item-content .circle {
   background-color: #fff;
-  border: 3px solid #0078ff;
+  border: 3px solid #6a5acd;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);

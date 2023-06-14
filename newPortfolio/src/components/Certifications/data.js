@@ -7,7 +7,7 @@ const timelineData = [
 
     category: {
       tag: "DS specialization",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
   {
@@ -18,7 +18,7 @@ const timelineData = [
 
     category: {
       tag: "ML specialization",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
   {
@@ -29,7 +29,7 @@ const timelineData = [
 
     category: {
       tag: "Coursera honors",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
   {
@@ -40,7 +40,7 @@ const timelineData = [
 
     category: {
       tag: "data analytics specialization",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
   {
@@ -51,7 +51,7 @@ const timelineData = [
 
     category: {
       tag: "ML specialization",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
 ];

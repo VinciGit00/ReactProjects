@@ -9,7 +9,7 @@ const timelineData = [
     fourth: "- Theory of informations",
     category: {
       tag: "Erasmus study program",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
 
@@ -22,7 +22,7 @@ const timelineData = [
     third: "- Data bases",
     category: {
       tag: "Bachelor thesis in IT engineering",
-      color: "#1DA1F2",
+      color: "#6a5acd",
     },
   },
 ];
