@@ -1,5 +1,17 @@
 const timelineData = [
   {
+    text: "Assistant and tutor professor",
+    date2: "October 2023 ‑ February 2024",
+    paragraph: "University of Bergamo",
+    first:
+      "Teaching and tutoring for statistic course for computer science engineering",
+
+    category: {
+      tag: "Work",
+      color: "#6a5acd",
+    },
+  },
+  {
     text: "Internship",
     date2: "July 2023 - September 2023",
     paragraph: "Inxpect",
