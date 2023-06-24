@@ -105,7 +105,7 @@ function Projects() {
               imgPath={camera}
               blurhash={cameraBlurhash}
               isBlog={false}
-              title="CnaisLoggedInisLoggedInmera_face_recognition"
+              title="Camera face recognition"
               description="This is an open source app for transforming an old laptop camera that can
               recognise human faces and send the pictures by email"
               ghLink="https://github.com/VinciGit00/camera_face_recognition"
