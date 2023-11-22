@@ -1,7 +1,7 @@
 const timelineData = [
   {
     text: "University of Bergamo",
-    date2: "October 2023- June 2023",
+    date2: "October 2023- June 2023, University of Bergamo",
     paragraph: "Main Arguments:",
     first: "- Neural networks",
     second: "- Machine learning",
@@ -13,7 +13,7 @@ const timelineData = [
   },
   {
     text: "Riga Technical University",
-    date2: "January 2023 - June 2023",
+    date2: "January 2023 - June 2023, Riga Technical University",
     paragraph: "Main Arguments:",
     first: "- Statistical learning and optimization",
     second: "- Artificial intelligence",
@@ -27,7 +27,7 @@ const timelineData = [
 
   {
     text: "University of Bergamo",
-    date2: "October 2019- June 2022",
+    date2: "October 2019- June 2022, University of Bergamo",
     paragraph: "Main Arguments:",
     first: "- Linear algebra and analysis",
     second: "- Object oriented coding",

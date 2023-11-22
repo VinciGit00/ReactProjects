@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Particle from "../Particle";
-import { Input } from "semantic-ui-react";
+
 function Form() {
   const form = useRef();
 
@@ -39,8 +39,7 @@ function Form() {
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className="--form-control--card  --flex-center --dir-column form-main"
-                autoComplete="off"
+                className="--form-control--card  --flex-center --dir-column form-main scrollable-form"
               >
                 <div className="form-group">
                   <label>
@@ -90,7 +89,11 @@ function Form() {
                   ></textarea>
                 </div>
                 <br />
-                <button type="submit" className="bottone">
+                <button
+                  type="submit"
+                  className="bottone"
+                  style={{ visibility: "visible" }}
+                >
                   Send message
                 </button>
               </form>
