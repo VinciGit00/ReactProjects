@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/image5.png";
 import bitsOfCode from "../../Assets/Projects/image6.png";
 import marcoApi from "../../Assets/Projects/image7.png";
 import camera from "../../Assets/Projects/image8.png";
+import amazScraper from "../../Assets/Projects/scraper.png";
 import { encode } from "blurhash";
 
 function Projects() {
@@ -21,6 +22,7 @@ function Projects() {
   const [leafBlurhash, setLeafBlurhash] = useState("");
   const [chatifyBlurhash, setChatifyBlurhash] = useState("");
   const [emotionBlurhash, setEmotionBlurhash] = useState("");
+  const [amazScraperBlurhash, setamazScraperBlurhash] = useState("");
 
   useEffect(() => {
     // Load and encode the images as blurhash strings
@@ -33,6 +35,7 @@ function Projects() {
       const leafData = await loadImageData(leaf);
       const chatifyData = await loadImageData(chatify);
       const emotionData = await loadImageData(emotion);
+      const amazScraperData = await loadImageData(amazScraper);
 
       setBitsOfCodeBlurhash(encode(bitsOfCodeData, 32, 32));
       setSuicideBlurhash(encode(suicideData, 32, 32));
@@ -42,6 +45,7 @@ function Projects() {
       setLeafBlurhash(encode(leafData, 32, 32));
       setChatifyBlurhash(encode(chatifyData, 32, 32));
       setEmotionBlurhash(encode(emotionData, 32, 32));
+      setamazScraperBlurhash(encode(amazScraperData, 32, 32));
     };
 
     loadAndEncodeImages();
@@ -80,10 +84,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={amazScraper}
+              blurhash={amazScraperBlurhash}
+              isBlog={false}
+              title="amazScraper"
+              description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in seconds instead of many minutes. This
+repo has 2 forks and more than 25 stars"
+              ghLink="https://github.com/VinciGit00/AmazScraper"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               blurhash={bitsOfCodeBlurhash}
               isBlog={false}
-              title=" NBA stats"
+              title="NBA stats"
               description="Python open source web App created with streamlit library for visualize every personal informations of players currently playing in the NBA"
               ghLink="https://github.com/VinciGit00/nba-platform"
               demo="https://vincigit00-nba-platform-main-ounnit.streamlit.app/"
