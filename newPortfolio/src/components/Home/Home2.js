@@ -15,8 +15,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a master's degree student in computer engineering. I am
-              currently studying deep learning and data science.
+              I am a master's degree student in data science data engineering
+              master's course. I am currently studying deep learning, data
+              cleaning and data engineering.
               <br />
               <br />
               My main interests are the study of &nbsp;
@@ -25,14 +26,12 @@ function Home2() {
               </i>
               and its application with &nbsp;
               <i>
+                <b className="purple">Pytorch </b>.
+              </i>
+              <i>and </i>
+              <i>
                 <b className="purple">tensorflow </b>.
               </i>
-              <br />
-              <br />I am looking to do an &nbsp;
-              <i>
-                <b className="purple">internship </b>
-              </i>
-              for next summer.
               <br />
               <br />
               In addition to that I know &nbsp;

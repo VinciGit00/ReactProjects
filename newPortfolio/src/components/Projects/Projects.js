@@ -87,10 +87,10 @@ function Projects() {
               imgPath={amazScraper}
               blurhash={amazScraperBlurhash}
               isBlog={false}
-              title="amazScraper"
+              title="YOSO-ai"
               description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in seconds instead of many minutes. This
-repo has 2 forks and more than 25 stars"
-              ghLink="https://github.com/VinciGit00/AmazScraper"
+repo has 4 branches, 2 forks and more than 30 stars"
+              ghLink="https://github.com/VinciGit00/YOSO-ai"
             />
           </Col>
           <Col md={4} className="project-card">
