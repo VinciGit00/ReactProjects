@@ -89,7 +89,7 @@ function Projects() {
               isBlog={false}
               title="YOSO-ai"
               description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in seconds instead of many minutes. This
-repo has 4 branches, 2 forks and more than 30 stars"
+repo has 4 branches, 2 forks and more than 35 stars"
               ghLink="https://github.com/VinciGit00/YOSO-ai"
             />
           </Col>
