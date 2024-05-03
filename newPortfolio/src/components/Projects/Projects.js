@@ -89,7 +89,7 @@ function Projects() {
               isBlog={false}
               title="Scrapegraph-ai"
               description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in seconds instead of many minutes. This
-repo has 20 forks, more than 300 stars and 8000 downloads on pip"
+repo has 100 forks, more than 1000 stars and 14000 downloads on pip"
               ghLink="https://github.com/VinciGit00/Scrapegraph-ai"
             />
           </Col>
