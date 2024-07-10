@@ -1,4 +1,16 @@
 const timelineData = [
+    {
+    text: "Cofounder and developer",
+    date2: "February 2024 - now",
+    paragraph: "Scrapegraphai",
+    first:
+      "I created a company for making scraping with the use of the AI",
+
+    category: {
+      tag: "Work",
+      color: "#6a5acd",
+    },
+  },
   {
     text: "Assistant and tutor professor",
     date2: "October 2023 ‑ February 2024",
@@ -14,7 +26,7 @@ const timelineData = [
   {
     text: "Internship",
     date2: "July 2023 - September 2023",
-    paragraph: "Inxpect",
+    paragraph: "Inxpect spa",
     first:
       "Main work: : ML algorithm for labeling images and create new neural networks from a pre‑trained network. This company was named by Wired one of the top startup in Italy in 2022",
 

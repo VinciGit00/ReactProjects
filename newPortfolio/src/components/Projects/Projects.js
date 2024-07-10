@@ -88,9 +88,9 @@ function Projects() {
               blurhash={amazScraperBlurhash}
               isBlog={false}
               title="Scrapegraph-ai"
-              description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in seconds instead of many minutes. This
-repo has 100 forks, more than 1000 stars and 14000 downloads on pip"
-              ghLink="https://github.com/VinciGit00/Scrapegraph-ai"
+              description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in just some seconds instead of many minutes. This
+repo has 900 forks, more than 13000 stars and 140000 downloads on pip"
+              ghLink="https://github.com/ScrapeGraphAI/Scrapegraph-ai"
             />
           </Col>
           <Col md={4} className="project-card">
