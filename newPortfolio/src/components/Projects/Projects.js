@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/image6.png";
 import marcoApi from "../../Assets/Projects/image7.png";
 import camera from "../../Assets/Projects/image8.png";
 import amazScraper from "../../Assets/Projects/scraper.png";
+import Webapp from "../../Assets/Projects/webapp.png";
 import { encode } from "blurhash";
 
 function Projects() {
@@ -89,8 +90,18 @@ function Projects() {
               isBlog={false}
               title="Scrapegraph-ai"
               description="Open source scraping library using Openai apis. This tool allows to automatically scrape full webpages in just some seconds instead of many minutes. This
-repo has 900 forks, more than 13000 stars and 140000 downloads on pip"
+repo has 1000 forks, more than 14000 stars and 200k downloads on pip"
               ghLink="https://github.com/ScrapeGraphAI/Scrapegraph-ai"
+            />
+          </Col>
+             <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Webapp}
+              blurhash={amazScraperBlurhash}
+              isBlog={false}
+              title="Scrapegraph-ai demo"
+              description="Open source scraping frontend for extracting data with Scrapegraphai"
+              ghLink="https://scrapegraph-ai-demo.streamlit.app"
             />
           </Col>
           <Col md={4} className="project-card">
