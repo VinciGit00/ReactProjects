@@ -10,17 +10,20 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">MARCO VINCIGUERRA </span>
             from <span className="purple"> Italy.</span>
-            <br />I am aMaster degree student in IT engineering
+            <br />I am the CTO and cofounder of ScrapeGraphAI
             <br />
             <br />
             Apart from coding, some other activities that I love to do are:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Doing sport
+              <ImPointRight /> Running
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Reading
             </li>
           </ul>
         </blockquote>

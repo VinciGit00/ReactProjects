@@ -4,8 +4,7 @@ const timelineData = [
     date2: "February 2024 - now",
     paragraph: "Scrapegraphai",
     first:
-      "I created a company for making scraping with the use of the AI",
-
+      "I created a company for making scraping with the use of the AI. Actually is top 200 open source project about AI",
     category: {
       tag: "Work",
       color: "#6a5acd",
@@ -28,8 +27,7 @@ const timelineData = [
     date2: "July 2023 - September 2023",
     paragraph: "Inxpect spa",
     first:
-      "Main work: : ML algorithm for labeling images and create new neural networks from a pre‑trained network. This company was named by Wired one of the top startup in Italy in 2022",
-
+      "Main work: ML algorithm for labeling images and create new neural networks from a pre‑trained network. This company was named by Wired one of the top startup in Italy in 2022",
     category: {
       tag: "Work",
       color: "#6a5acd",
@@ -52,7 +50,6 @@ const timelineData = [
     paragraph: "University of Bergamo",
     first:
       "Creation of an equidistant grid map starting from an heterogeneous map for the AgrimOnIA project",
-
     category: {
       tag: "Work",
       color: "#6a5acd",

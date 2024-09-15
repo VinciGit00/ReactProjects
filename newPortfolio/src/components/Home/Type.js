@@ -10,6 +10,8 @@ function Type() {
           "Deep Learning",
           "Data scientist",
           "Open Source Contributor",
+          "CTO and cofounder of Sgrapegraphai",
+          "CTO and cofounder of Thayer Inc",
         ],
         autoStart: true,
         loop: true,
