@@ -48,6 +48,15 @@ function Particle() {
         },
         retina_detect: true,
       }}
+      style={{
+        position: "fixed",
+        width: "100%",
+        height: "100%",
+        zIndex: -1,
+        top: 0,
+        left: 0,
+        pointerEvents: "none"
+      }}
     />
   );
 }
