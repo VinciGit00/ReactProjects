@@ -1,7 +1,7 @@
 const timelineData = [
   {
     text: "University of Bergamo",
-    date2: "October 2023 - April 2025, University of Bergamo",
+    date2: "October 2023 - April 2025, University of Bergamo (this degree is useless)",
     paragraph: "Main Arguments:",
     first: "- Neural networks",
     second: "- Machine learning",
