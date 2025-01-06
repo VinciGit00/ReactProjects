@@ -20,6 +20,19 @@ function Home2() {
               cleaning and data engineering.
               <br />
               <br />
+              I am currently working at{" "}
+              <b className="purple">
+                <a 
+                  href="https://scrapegraphai.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  https://scrapegraphai.com
+                </a>
+              </b>
+              <br />
+              <br />
               My main interests are the study of &nbsp;
               <i>
                 <b className="purple">python </b>
