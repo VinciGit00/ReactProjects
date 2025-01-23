@@ -10,6 +10,9 @@ import Timeline from "./components/Timeline/TimelineNew";
 import TimelineWork from "./components/Work/TimelineWork";
 import TimelineCertifications from "./components/Certifications/TimelineCertifications";
 import Form from "./components/Form/Form";
+import Blog from "./components/Blog/Blog";
+import BlogPost from "./components/Blog/BlogPost";
+import BucketList from "./components/BucketList/BucketList";
 
 import {
   BrowserRouter as Router,
@@ -48,6 +51,9 @@ function App() {
           <Route path="/timelinework" element={<TimelineWork />} />
           <Route path="/education" element={<TimelineCertifications />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
+          <Route path="/bucket-list" element={<BucketList />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

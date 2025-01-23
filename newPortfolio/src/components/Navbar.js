@@ -11,6 +11,8 @@ import {
   AiFillPrinter,
   AiFillMail,
   AiFillSchedule,
+  AiFillRead,
+  AiOutlineUnorderedList,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -122,6 +124,24 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiFillMail style={{ marginBottom: "2px" }} /> Form
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillRead style={{ marginBottom: "2px" }} /> Blog
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/bucket-list"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUnorderedList style={{ marginBottom: "2px" }} /> 100 Things
               </Nav.Link>
             </Nav.Item>
           </Nav>
