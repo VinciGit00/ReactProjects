@@ -5,7 +5,7 @@ const timelineData = [
     paragraph: "Main Arguments:",
     first: "- Neural networks",
     second: "- Machine learning",
-    third: "- Transformer vision",
+    third: "- Everything else is useless",
     category: {
       tag: "Master degree in IT engineering",
       color: "#6a5acd",

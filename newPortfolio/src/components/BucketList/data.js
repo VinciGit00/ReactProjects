@@ -5,11 +5,12 @@ export const bucketListItems = [
       { text: "Visit Japan during cherry blossom season", completed: false },
       { text: "See the Northern Lights in Iceland", completed: false },
       { text: "Take a solo backpacking trip through Europe", completed: false },
-      { text: "Visit all 7 wonders of the world", completed: false },
+      { text: "Come back to Riga", completed: false },
       { text: "Stay in an overwater bungalow in Maldives", completed: false },
       { text: "Go on an African safari", completed: false },
       { text: "Visit Machu Picchu in Peru", completed: false },
-      { text: "Explore the Great Barrier Reef", completed: false },
+      { text: "Visit San Francisco", completed: false },
+      { text: "Visit Los Angeles", completed: false },
       { text: "See the Pyramids in Egypt", completed: false },
       { text: "Road trip across the United States", completed: false },
       { text: "Visit Antarctica", completed: false },
@@ -30,11 +31,11 @@ export const bucketListItems = [
       { text: "Master meditation", completed: false },
       { text: "Get a bachelor's degree", completed:  true},
       { text: "Get a master's degree", completed: false },
+      { text: "Make an Erasmus", completed:  true },
       { text: "Learn photography", completed: false },
       { text: "Master public speaking", completed: false },
-      { text: "Learn to dance", completed: false },
-      { text: "Write a screenplay", completed: false },
-      { text: "Learn to paint", completed: false },
+      { text: "Stick my sticker at the Valhalla in Riga", completed: false },
+      { text: "Help my mum to win against her cancer", completed: false },
       { text: "Become financially independent", completed: false },
       { text: "Mentor someone to success", completed: false }
     ]
@@ -82,7 +83,7 @@ export const bucketListItems = [
   {
     category: "Lifestyle & Experiences",
     items: [
-      { text: "Live in a different country for a year", completed: false },
+      { text: "Meet Elon Musk", completed: false },
       { text: "Learn to make wine", completed: false },
       { text: "Attend a major film festival", completed: false },
       { text: "Go to all major tech conferences", completed: false },

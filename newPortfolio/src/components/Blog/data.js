@@ -9,6 +9,7 @@ export const blogPosts = [
 The real breakthrough came when I started working with machine learning models. From simple linear regression to complex neural networks, each new concept opened up exciting possibilities. I spent countless hours experimenting with different algorithms, tweaking parameters, and learning from both successes and failures.
 
 Tech stack:
+- PaddleOCR
 - Ollama server
 - Mistral API
 - hugging face inference endpoint
