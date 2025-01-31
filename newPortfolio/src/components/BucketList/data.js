@@ -4,7 +4,7 @@ export const bucketListItems = [
     items: [
       { text: "Visit Japan during cherry blossom season", completed: false },
       { text: "See the Northern Lights in Iceland", completed: false },
-      { text: "Take a solo backpacking trip through Europe", completed: false },
+      { text: "Make the Camino de Santiago", completed: false },
       { text: "Come back to Riga", completed: false },
       { text: "Stay in an overwater bungalow in Maldives", completed: false },
       { text: "Go on an African safari", completed: false },
@@ -73,10 +73,10 @@ export const bucketListItems = [
       { text: "Build a successful portfolio", completed: false },
       { text: "Lead a major project", completed: false },
       { text: "Start a tech blog with 10k followers", completed: false },
-      { text: "Create a YouTube channel", completed: false },
+      { text: "Make an exit from a startup", completed: false },
       { text: "Win a hackathon", completed: true},
       { text: "Create a successful open source project", completed: true },
-      { text: "Build a profitable side project", completed: false },
+      { text: "Having 20k stars on github on a single project", completed: false },
       { text: "Mentor junior developers", completed: false }
     ]
   },
@@ -84,7 +84,7 @@ export const bucketListItems = [
     category: "Lifestyle & Experiences",
     items: [
       { text: "Meet Elon Musk", completed: false },
-      { text: "Learn to make wine", completed: false },
+      { text: "Meet Jordan Peterson", completed: false },
       { text: "Attend a major film festival", completed: false },
       { text: "Go to all major tech conferences", completed: false },
       { text: "Have dinner at a 3-star Michelin restaurant", completed: false },
