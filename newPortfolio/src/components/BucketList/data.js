@@ -30,7 +30,7 @@ export const bucketListItems = [
       { text: "Learn to play a musical instrument", completed: false },
       { text: "Master meditation", completed: false },
       { text: "Get a bachelor's degree", completed:  true},
-      { text: "Get a master's degree", completed: false },
+      { text: "Get a master's degree", completed:  true},
       { text: "Make an Erasmus", completed:  true },
       { text: "Learn photography", completed: false },
       { text: "Master public speaking", completed: false },
