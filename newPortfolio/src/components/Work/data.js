@@ -1,15 +1,4 @@
 const timelineData = [
-   {
-    text: "CTO and cofounder",
-    date2: "October 2024 - now",
-    paragraph: "Thayer, Inc",
-    first:
-      "I'm the CTO and cofounder of Thayer, Inc. I'm responsible for the technology and the development of the company. I'm also responsible for the AI and the machine learning models.",
-    category: {
-      tag: "Work",
-      color: "#6a5acd",
-    },
-  },
   {
     text: "Cofounder and developer",
     date2: "February 2024 - now",
