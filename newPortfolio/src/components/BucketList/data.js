@@ -35,7 +35,7 @@ export const bucketListItems = [
       { text: "Learn photography", completed: false },
       { text: "Master public speaking", completed: false },
       { text: "Stick my sticker at the Valhalla in Riga", completed: false },
-      { text: "Help my mum to win against her cancer", completed: false },
+      { text: "Help my mum to win against her cancer", completed: true },
       { text: "Become financially independent", completed: false },
       { text: "Mentor someone to success", completed: false }
     ]
@@ -48,7 +48,7 @@ export const bucketListItems = [
       { text: "Enter in hall of fame Riga runners", completed: false },
       { text: "Run a three marathons in a year", completed: false },
       { text: "Learn to surf", completed: false },
-      { text: "Go scuba diving", completed: false },
+      { text: "Go scuba diving", completed: true },
       { text: "Climb a major mountain", completed: false },
       { text: "Go bungee jumping", completed: false },
       { text: "Complete a triathlon", completed: false },
@@ -76,7 +76,7 @@ export const bucketListItems = [
       { text: "Make an exit from a startup", completed: false },
       { text: "Win a hackathon", completed: true},
       { text: "Create a successful open source project", completed: true },
-      { text: "Having 20k stars on github on a single project", completed: false },
+      { text: "Having 20k stars on github on a single project", completed: true },
       { text: "Mentor junior developers", completed: false }
     ]
   },
